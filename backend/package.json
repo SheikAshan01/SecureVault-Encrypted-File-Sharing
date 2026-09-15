@@ -1,0 +1,21 @@
+{
+  "name": "secure-file-sharing-backend",
+  "version": "1.0.0",
+  "description": "Secure File Sharing System Backend with AES-256-GCM Encryption, JWT Auth & Audit Logs",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^11.0.5"
+  }
+}
