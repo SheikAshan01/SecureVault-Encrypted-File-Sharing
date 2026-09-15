@@ -1,0 +1,11 @@
+{
+  "name": "securevault-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "npm install --prefix backend",
+    "build": "npm install --prefix backend",
+    "start": "node backend/server.js"
+  }
+}
